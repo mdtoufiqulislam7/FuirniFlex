@@ -20,7 +20,7 @@ port = process.env.PORT
 //   origin: 'http://localhost:3000', // Your frontend URL
 //   credentials: true,
 // }));
-const allowedOrigins = ['http://localhost:3000', ''];
+const allowedOrigins = ['http://localhost:3000', 'https://furniflexeccomecce.netlify.app'];
 app.use(cors({
     origin: function (origin, callback) {
         // Allow requests with no origin (like mobile apps or curl requests)
